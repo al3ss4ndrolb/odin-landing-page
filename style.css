@@ -52,8 +52,10 @@ a {
 .title {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 .subtext {
+ 
     font-size: 18px;
 }
 
@@ -109,7 +111,7 @@ img {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 100px 200px;
+    padding: 150px 200px;
     justify-content: center;
     align-items: center;
     
@@ -118,12 +120,59 @@ img {
 .quote {
     font-size: 36px;
     color: #1f2937;
+    margin: 0;
+}
+
+.author {
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: right; /* Aligns text inside the element */
+    width: 100%; 
 }
 
 .section-4 {
+    flex: 1;
 }
 
 .container-sec-4 {
+    display: flex; 
     margin: 100px 200px; 
-    border: solid;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 25px;
+}
+
+.h3-section-4 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.h3-and-subtext { 
+    color: #f9fafb; 
+}
+
+.h3-and-subtext p {
+    margin: 0;
+}
+.section-4-button {
+    display: flex;
+    justify-content: center;
+    color: #f9fafb;
+    margin: auto; 
+    background-color: #3882f6;
+    border: solid #f9fafb;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 0.5px 0;
+    margin: 0
 }
