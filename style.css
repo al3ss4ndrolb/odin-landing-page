@@ -46,7 +46,7 @@ a {
     gap: 2em;
     flex-shrink: 0;
     min-width: 50%;
-    /* flex: 1;  */
+    flex: 1; /*i'm not sure what it does, let's come back here tomorrow */
 
 }
 
