@@ -101,7 +101,9 @@ img {
 }
 
 .img-and-subtext {
-    display: flex;;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .img-subtext {
@@ -162,6 +164,7 @@ img {
     justify-content: center;
     color: #f9fafb;
     margin: auto; 
+    text-align: center;
     background-color: #3882f6;
     border: solid #f9fafb;
     font-size: 15px;
